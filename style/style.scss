@@ -5,9 +5,6 @@
 @import 'modules/footer';
 @import 'modules/slick';
 @import 'modules/animation';
-@media (min-width: 600px) {
-    @import 'breakpoints/600up';
-}
 @media (min-width: 960px) {
     @import 'breakpoints/960up';
 }

@@ -125,7 +125,7 @@ hr {
 }
 
 .dots {
-  background: url(../../images/dot.svg) repeat-x;
+  background: url(https://raw.githubusercontent.com/a2o23rhgojn3/work1/ca9526a11d537ae3e575c4b55a09ab4fe9a1fede/images/dot.svg) repeat-x;
   background-size: 10px 10px;
   background-position: left bottom;
   line-height: 1;
@@ -221,6 +221,7 @@ footer .site-map ul li {
   position: relative;
   z-index: 1;
   height: 90vh;
+  background-color: aqua;
 }
 
 .slider .slider-item {
@@ -232,15 +233,15 @@ footer .site-map ul li {
 }
 
 .slider .slider-item01 {
-  background-image: url(../../images/no.1.jpg);
+  background-image: url(/work1/images/no.1.jpg);
 }
 
 .slider .slider-item02 {
-  background-image: url(../../images/no.2.jpg);
+  background-image: url(/work1/images/no.2.jpg);
 }
 
 .slider .slider-item03 {
-  background-image: url(../../images/no.3.jpg);
+  background-image: url(/work1/images/no.3.jpg);
 }
 
 .horizontal-scroll img {
