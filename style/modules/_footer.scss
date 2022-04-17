@@ -1,0 +1,13 @@
+footer {
+    padding: 50px 5vw;
+    background-color: $grey;
+    .site-map {
+        ul {
+            grid-template-rows: 25% 25% 25% 25% 25%;
+            grid-template-columns: 50% 50%;
+            li {
+                margin: 10px 0;
+            };
+        }
+    } 
+}

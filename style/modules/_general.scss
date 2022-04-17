@@ -1,0 +1,89 @@
+// style
+a {
+    cursor: pointer;
+    display: block;
+}
+h1 {
+    padding: 30px 0;
+    text-align: left;
+    font-family: 'Zen Antique', serif;
+    font-size: 1.8rem;
+    // font-weight: bold;
+}
+h2 {
+    padding-bottom: 30px;
+    font-family: 'Zen Antique', serif;
+    font-size: 1.1rem;
+}
+p {
+    padding-bottom: 10px;
+}
+hr {
+    color: $light-grey;
+}
+.to-all {
+    padding: 0 !important;
+    margin: 0 auto;
+    width: 60vw;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid $blue;
+    border-radius: 50px;
+    color: $blue;
+}
+.to-details {
+    a {
+        color: $blue;
+        span::after {
+            content: '>';
+            padding-left: 10px;
+        }
+    }
+}
+.dots {
+    background: url(../../images/dot.svg) repeat-x;
+    background-size: 10px 10px;
+    background-position: left bottom;
+    line-height: 1;
+    a {
+        span {
+            padding-left: 10px;
+        }
+        span {
+            background-color: $grey;
+        }
+    }
+}
+.date {
+    color: $blue;
+}
+.bg-grey {
+    background-color: $grey;
+}
+// position
+.text-align-left {
+    text-align: left;
+}
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}
+// wrapper
+.main-wrapper {
+    padding: 50px 5vw;
+}
+.wrapper {
+    padding-bottom: 50px;
+}
+// layout
+.grid {
+    display: grid;
+}
+.flex {
+    display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
+}

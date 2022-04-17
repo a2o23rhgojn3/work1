@@ -1,0 +1,22 @@
+main {
+    padding-left: 200px;
+    .main-wrapper {
+        position: relative;
+        .text-vertical {
+            position: absolute;
+            right: 5vw;
+            line-height: 1.5;
+            writing-mode: vertical-rl;
+        }
+    }
+    .field-of-expertise {
+        li {
+            .circle-image {
+                img {
+                    width: 180px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+}

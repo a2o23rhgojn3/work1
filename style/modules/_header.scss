@@ -1,0 +1,21 @@
+header {
+    h1 {
+        position: absolute;
+        z-index: 2;
+        padding: 5vw;
+        svg {
+            width: 100%;
+            height: auto;
+            path {
+                // fill: $light-blue;
+            }
+        }
+    }
+}
+@media (min-width: 960px) {
+    header {
+        h1 {
+            position: fixed;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+header {
+    .change-color {
+        animation-name: changeColor;
+        animation-duration: 1.0s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+    }
+    @keyframes changeColor {
+        from {
+            fill: $white;
+        }
+        to {
+            fill: $black;
+        }
+    }
+    .opacity {
+        visibility: hidden;
+    }
+}

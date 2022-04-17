@@ -1,0 +1,28 @@
+.slider {
+    position: relative;
+    z-index: 1;
+    height: 90vh;
+    .slider-item {
+        width: 100vw;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slider-item01 {
+        background-image: url(../../images/no.1.jpg);
+    }
+    .slider-item02 {
+        background-image: url(../../images/no.2.jpg);
+    }
+    .slider-item03 {
+        background-image: url(../../images/no.3.jpg);
+    }
+}
+.horizontal-scroll {
+    img {
+        width: 100vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+}
